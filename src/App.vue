@@ -12,10 +12,16 @@
       <VuesaxButtonTransparent/>
       <VuesaxButtonShadow/>
       <VuesaxButtonColor/>
+      <VuesaxButtonIcon/>
+      <VuesaxButtonIconText/>
+      <VuesaxButtonAlert/>
   </div>
 </template>
 
 <script>
+    import VuesaxButtonAlert from '@/components/Alert.vue';
+    import VuesaxButtonIconText from '@/components/VuesaxButtonIconText.vue';
+    import VuesaxButtonIcon from '@/components/VuesaxButtonIcon.vue';
     import VuesaxButtonColor from '@/components/VuesaxButtonColor.vue';
     import VuesaxButtonShadow from '@/components/VuesaxButtonShadow.vue';
     import VuesaxButtonTransparent from '@/components/VuesaxButtonTransparent.vue';
@@ -42,6 +48,9 @@ export default {
       VuesaxButtonTransparent,
       VuesaxButtonShadow,
       VuesaxButtonColor,
+      VuesaxButtonIcon,
+      VuesaxButtonIconText,
+      VuesaxButtonAlert,
   }
 }
 </script>
@@ -53,6 +62,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+    height: 8000px;
   margin-top: 60px;
     padding-bottom: 50px;
 }
