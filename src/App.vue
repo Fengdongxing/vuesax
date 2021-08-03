@@ -15,10 +15,12 @@
       <VuesaxButtonIcon/>
       <VuesaxButtonIconText/>
       <VuesaxButtonAlert/>
+      <Input/>
   </div>
 </template>
 
 <script>
+    import Input from '@/components/Input.vue';
     import VuesaxButtonAlert from '@/components/Alert.vue';
     import VuesaxButtonIconText from '@/components/VuesaxButtonIconText.vue';
     import VuesaxButtonIcon from '@/components/VuesaxButtonIcon.vue';
@@ -51,6 +53,7 @@ export default {
       VuesaxButtonIcon,
       VuesaxButtonIconText,
       VuesaxButtonAlert,
+      Input,
   }
 }
 </script>
